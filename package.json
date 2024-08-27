@@ -1,0 +1,24 @@
+{
+  "name": "naukri_webscrape",
+  "version": "1.0.0",
+  "description": "Scrape information about tech job postings from a hypothetical job board and organize the data into a structured format",
+  "main": "webscraping.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Job Title",
+    "Company Name",
+    "Location",
+    "Job Type",
+    "Posted Date",
+    "Job Description"
+  ],
+  "author": "Jessica Dolly",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "puppeteer": "^23.2.0",
+    "xlsx": "^0.18.5"
+  }
+}
